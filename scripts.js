@@ -47,6 +47,7 @@ window.recommendColleges = function () {
 
 function displayRecommendations(recommendations) {
   const suggestions = recommendations.map((college) => college.subject);
+  let uniqueArray = [...new Set(suggestions)];
   const popUpContent = `
         <table class="table">
             <tr>
@@ -69,11 +70,11 @@ function displayRecommendations(recommendations) {
               .join("")}
         </table>
         <h2>Suggestions</h2>
-        <p style='font-size: 20px;'>
-            ${suggestions.map((item, index) => (
-            `<span class='badge text-bg-warning'>${item}</span>`
-            ))
-            }
+        <p style='font-size: 20px; font-family: Monospace;'>
+            ${uniqueArray.map(
+              (item, index) =>
+                `<span class='badge text-bg-warning'>${item}</span>`
+            )}
         </p>
     `;
 
