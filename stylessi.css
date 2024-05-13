@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    background-image: url('online-communication.jpg');
+    background-size: cover; 
+    background-position: left;
+    width: 50%;
+    justify-content: center;
+    height:100vh;
+}
+.image {
+    flex: 1;
+    padding: 0px;
+}
+.image img {
+    max-width: 100%;
+    height: 770px;
+}
+.content {
+    width: auto;
+    flex: 1;
+    padding-left: 25px;
+}
+
+.wel{
+    color: #00799B;
+    position: absolute;
+    top: 110px;
+    margin-left: 530px;
+    margin-bottom:  15px;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.frame{
+    position: absolute;
+    top: 150px;
+    max-width: 420px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #C3F0FF;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 530px;
+}
+
+.heading{
+    color: #00799B;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.textbox{
+    height: 35px;
+    width: 400px;
+    border: 1px solid #C3F0FF ;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin: 8px 0;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+.textbox:hover{
+    border: 2px solid #C3F0FF;
+}
+
+.button{
+    padding: 10px;
+    width: 250px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #028db4;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 75px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 4px rgba(00, 00, 00, 0.25);
+    transition: all 0.2s;
+}
+.button:hover{
+    background-color: #00799B;
+    color: #ffffff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.text2{
+    color: #00799B;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    font-size: smaller;
+}
+.signup{
+    color: #00799B;
+    margin-left: 220px;
+    margin-top: -16px;
+    margin-bottom: auto;
+    font-size: smaller;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.AppLogo{
+    margin-left: 240px;
+    position: absolute;
+    top: 630px;
+    left: 800px;
+    cursor: pointer;
+}
