@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CourseCompass</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="navbar">
-        <a href="Home.html"><img src="Logo Horizontal.svg" width="200px" class="Logo"></a>
-        <select id="myDropdown">
-            <option value="item1">About Us</option>
-            <option value="item2">Contact</option>
-            <option value="item3">FAQ</option>
-            <option value="item4">Socials</option>
-        </select>        
+      <a href="Home.html"
+        ><img src="Logo Horizontal.svg" width="200px" class="Logo"
+      /></a>
+      <select id="myDropdown">
+        <option value="item1">About Us</option>
+        <option value="item2">Contact</option>
+        <option value="item3">FAQ</option>
+        <option value="item4">Socials</option>
+      </select>
     </div>
     <div class="container">
-        <h1 class="h1">Course Compass</h1>
-        <div>
-            <label for="gpa" class="label">GPA:</label>
-            <input class="curve" type="number" id="gpa" step="0.01" min="0" max="4" placeholder="Enter your GPA">
-        </div>
-        <div>
-            <label for="location" class="label">Location:</label>
-            <input class="curve" type="text" id="location" placeholder="Enter preferred location (Comma Seperated)">
-        </div>
-        <div>
-            <label for="subject" class="label">Preferred Courses:</label>
-            <input class="curve" type="text" id="subject" placeholder="Enter preferred Courses (Comma Seperated)">
-        </div>
-        <button onclick="recommendColleges()">Get Recommendations</button>
-        <h2 class="h2">Recommended Colleges:</h2>
-        <table id="recommendations-table">
-            <thead>
-              <tr>
-                <th>College Name</th>
-                <th>Location</th>
-                <th>Subject</th>
-                <th>&nbsp;GPA</th>
-              </tr>
-            </thead>
-            <tbody id="recommendations"></tbody>
-          </table>
-          
+      <h1 class="h1">Course Compass</h1>
+      <div>
+        <label for="gpa" class="label">GPA:</label>
+        <input
+          class="curve"
+          type="number"
+          id="gpa"
+          step="0.01"
+          min="0"
+          max="4"
+          placeholder="Enter your GPA"
+        />
+      </div>
+      <div>
+        <label for="location" class="label">Location:</label>
+        <input
+          class="curve"
+          type="text"
+          id="location"
+          placeholder="Enter preferred location (Comma Seperated)"
+        />
+      </div>
+      <div>
+        <label for="subject" class="label">Preferred Courses:</label>
+        <input
+          class="curve"
+          type="text"
+          id="subject"
+          placeholder="Enter preferred Courses (Comma Seperated)"
+        />
+      </div>
+      <button id="recommendButton" onclick="recommendColleges()">
+        Get Recommendations
+      </button>
+      <h2 class="h2">Recommended Colleges:</h2>
     </div>
-    <script src="script3.js"></script>
-    
-</body>
+  </body>
+  <script src="script3.js" type="module"></script>
 </html>
