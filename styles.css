@@ -1,167 +1,149 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.navbar{
-    position: relative;
-    width: 100vw;
-    box-shadow: 0px 2px 15px rgba(00, 00, 00, 0.25);
-    height: 80px;
+.navbar {
+  position: relative;
+  width: 100vw;
+  box-shadow: 0px 2px 15px rgba(00, 00, 00, 0.25);
+  height: 80px;
 }
 
-.Logo{
-    position: relative;
-    left: 10px;
-    top: 20px;
-    cursor: pointer;
-}   
+.Logo {
+  left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
 #myDropdown {
-    margin-left: 75%;
-    position: absolute;
-    top: 2.7vh;
-    height: 35px;
-    width: 130px;
-    padding: 5px;
-    border: 2px solid #028db4;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: poppins;
-    background-color: transparent;
-    color: #028db4;
+  margin-left: 75%;
+  position: absolute;
+  top: 2.7vh;
+  height: 35px;
+  width: 130px;
+  padding: 5px;
+  border: 2px solid #028db4;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: poppins;
+  background-color: transparent;
+  color: #028db4;
 }
 
-#myDropdown option {
-    background-color: transparent;
-    color: #006789;
-    font-size: 16px;
-    border-radius: 0px;}
+.container {
+  align-items: center;
 
 
-    .container {
-        align-items: center;
-        max-width: 600px;
-        margin-top: 105px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.1);
-    }
-    
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.1);
 }
 
-.h1{
-    color: #028db4;
-    font-weight: 900;
-    font-size: 35px;
-    font-family: figno;
-    align-items: center;
+.h1 {
+  color: #028db4;
+  font-weight: 900;
+  font-size: 35px;
+  font-family: figno;
+  align-items: center;
 }
 
-.label{
-    color: #015f79;
-    font-weight: 600;
-    font-size: large;
-    font-family: poppins;
-    
+.label {
+  color: #015f79;
+  font-weight: 600;
+  font-size: large;
+  font-family: poppins;
 }
 
 input[type="number"],
 input[type="text"],
 button {
-    margin: 5px ;
-    padding: 5px;
-    width: 300px;
-    border: solid 0.5px #028db4;
-    
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  border: solid 0.5px #028db4;
 
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 button {
-    background-color: #028db4;
-    color: #fff;
-    padding: 10px;
-    font-family: poppins;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 150px;
-    margin-top: 25px;
-    border: solid 3px #028db4;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    
+  background-color: #028db4;
+  color: #fff;
+  padding: 10px;
+  font-family: poppins;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-top: 25px;
+  border: solid 3px #028db4;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 button:hover {
-    background-color: #015f79;
-    border: solid 3px #015f79;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+  background-color: #015f79;
+  border: solid 3px #015f79;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .recommendation-item {
-    font-family: Poppins;
-    font-style: italic;
-    color: #015f79;
-  }
-  .college-name {
-    font-family: poppins;
-    font-weight: bold;
-  }
-  
-  
-
-.h2{
-    color: #015f79;
-    font-weight: 700;
-    font-size: 25px;
-    font-family: poppins;
+  font-family: Poppins;
+  font-style: italic;
+  color: #015f79;
+}
+.college-name {
+  font-family: poppins;
+  font-weight: bold;
 }
 
-.th{
-    padding-left: 25px;
+.h2 {
+  color: #015f79;
+  font-weight: 700;
+  font-size: 25px;
 }
 
-.footer{
-    position: absolute;
-    top: 710px;
-    margin-left: 75px;
+.th {
+  padding-left: 25px;
+}
 
-    color: #048dbb;
+.footer {
+  position: absolute;
+  top: 710px;
+  margin-left: 75px;
+
+  color: #048dbb;
 }
-.footers{
-    cursor: pointer;
-    color: #048dbb;
-    font-size: 15px;
-    font-weight: 600;
-    margin-left: 60%;
-    position: relative;
-    top: 2vh;
-    font-family: poppins;
-    transition: all 0.3s;
+.footers {
+  cursor: pointer;
+  color: #048dbb;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 60%;
+  position: relative;
+  top: 2vh;
+  font-family: poppins;
+  transition: all 0.3s;
 }
-.footers:hover{
-    color: #006789;
+.footers:hover {
+  color: #006789;
 }
-.curve{
-    border-radius: 10px
+.curve {
+  border-radius: 10px;
 }
